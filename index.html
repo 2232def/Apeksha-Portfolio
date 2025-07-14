@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandra Chen - Model Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="logo">Apeksha Singh</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#measurements">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="shoot19.jpeg" alt="Alexandra Chen">
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">Apeksha Singh</h1>
+                <h2 class="hero-subtitle">About Portfolio</h2>
+                <p>Apeksha born in Jamshedpur Jharkhand is a model and social media influencer who is Passionate about
+                    fashion and self-expression, I am a versatile model with a flair for capturing the essence of each
+                    project I undertake. With experience in both runway and editorial work, I thrive in dynamic
+                    environments and love collaborating with creative teams to bring visions to life. My journey in
+                    modeling has taught me the importance of confidence and authenticity, which I aim to convey through
+                    my work. Whether it’s high fashion, commercial, or lifestyle shoots, I bring energy and dedication
+                    to every opportunity. I’m excited to explore new horizons and continue evolving in this vibrant
+                    industry.</p>
+                </p>
+                <div class="hero-stats">
+                    <!-- <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Campaigns</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Brands</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5</span>
+                        <span class="stat-label">Years</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-index="0">
+                    <img src="Shoot20.jpeg" alt="Fashion Editorial 1">
+                </div>
+                <div class="portfolio-item" data-index="1">
+                    <img src="Shoot5.webp" alt="Beauty Campaign 1">
+                </div>
+                <div class="portfolio-item" data-index="2">
+                    <img src="Shoot10.jpeg" alt="Lifestyle Shoot 1">
+                </div>
+                <div class="portfolio-item" data-index="3">
+                    <img src="shoot22.jpeg" alt="Fashion Editorial 2">
+                </div>
+                <div class="portfolio-item" data-index="4">
+                    <img src="Shoot9.jpeg" alt="Beauty Campaign 2">
+                </div>
+                <div class="portfolio-item" data-index="5">
+                    <img src="Shoot27.jpeg" alt="Lifestyle Shoot 2">
+                </div>
+                <div class="portfolio-item" data-index="6">
+                    <img src="shoot1.jpeg" alt="Fashion Editorial 3">
+                </div>
+                <div class="portfolio-item" data-index="7">
+                    <img src="shoot28.jpeg" alt="Beauty Campaign 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close">&times;</span>
+            <button class="prev">&#10094;</button>
+            <img class="lightbox-image" src="" alt="">
+            <button class="next">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Measurements Section -->
+    <section id="measurements" class="measurements">
+        <div class="measurements-container">
+            <div class="measurements-image">
+                <img src="shoot18.jpeg" alt="Polaroid Style Photo">
+                <div class="polaroid-frame">
+                    <div class="polaroid-caption">Apeksha Singh</div>
+                </div>
+            </div>
+            <div class="measurements-content">
+                <h2 class="measurements-title">Measurements</h2>
+                <div class="measurements-details">
+                    <div class="measurement-item">
+                        <span class="measurement-label">Height</span>
+                        <span class="measurement-value">170cm</span>
+                    </div>
+                    <div class="measurement-item">
+                        <span class="measurement-label">Bust</span>
+                        <span class="measurement-value">32</span>
+                    </div>
+                    <div class="measurement-item">
+                        <span class="measurement-label">Waist</span>
+                        <span class="measurement-value">28</span>
+                    </div>
+                    <div class="measurement-item">
+                        <span class="measurement-label">Hip</span>
+                        <span class="measurement-value">36</span>
+                    </div>
+                    <div class="measurement-item">
+                        <span class="measurement-label">Dress</span>
+                        <span class="measurement-value">36EU</span>
+                    </div>
+                    <div class="measurement-item">
+                        <span class="measurement-label">Shoe</span>
+                        <span class="measurement-value">39</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>apekshasingh0602@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12,6 12,12 16,14"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Availability</h3>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                            <p>Weekend: Open</p>
+                        </div>
+                    </div>
+                    <!-- <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M8 21l4-4 4 4"></path>
+                            </svg>
+                        </div>
+
+                    </div> -->
+
+                </div>
+            </div>
+            <div class="instagram-icon">
+                <a href="https://www.instagram.com/apekshasingh_6?igsh=OXNvam90bDBhZGF0&utm_source=qr"><img src="icons8-instagram.svg" alt=""> </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
